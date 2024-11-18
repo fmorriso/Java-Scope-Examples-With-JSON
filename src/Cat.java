@@ -1,6 +1,3 @@
-import org.json.JSONPropertyName;
-
-//@JsonSerialize
 public record Cat(
         String name,
         int age
