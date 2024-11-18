@@ -6,6 +6,7 @@ An example of using Google JSON library GSON to read/write JSON structures from/
 | Tool     |  Version |
 |:---------|---------:|
 | Java     | 23.0.1.0 |
+| JUnit    |   5.11.3 |
 | IntelliJ | 2024.3.0 |
 | VSCode   |   1.95.2 |
 | GSON     |   2.11.0 |
