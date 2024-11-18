@@ -1,6 +1,5 @@
 # Google GSON Example
-An example of using Google JSON library GSON to read/write JSON structures from/to the local file system.
-
+An example of using Google JSON library GSON to read/write JSON structures class/record.
 ## Tools Used
 
 | Tool     |  Version |
