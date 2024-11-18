@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.time.ZonedDateTime;
+// import java.time.ZonedDateTime;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,11 +9,12 @@ public class Main {
 
         Gson g = getDefaultGson();
 
+        // class to JSON
         Pet p = new Pet("Tigger", 3);
         System.out.println(p);
         System.out.println(g.toJson(p));
 
-
+        // record to JSON
         Cat c = new Cat("Bob", 5);
         System.out.println(c);
         System.out.println(g.toJson(c));
